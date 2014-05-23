@@ -3,7 +3,7 @@ cmd.fm-hotkey-client
 
 unofficial cmd.fm standalone version with support for global hotkeys (standalone client using app.js) (hotkeys windows only - using ahk)
 
-- all commands will NOT activate the client window (NO focus steal)
+- all commands will not activate the client window (NO focus steal)
 
 - start.ahk
 	- runs client - in case it's not running
@@ -15,7 +15,10 @@ unofficial cmd.fm standalone version with support for global hotkeys (standalone
 	- AppKey + Numpad1 -> play Progressive House
 	- AppKey + F4 -> pause/unpause
 
+	- will set volume to prefered value
+	- will disable comments if prefered
+
 - the purple key on the following picture is the AppKey
-	- ![ScreenShot](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg)
+	![ScreenShot](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg)
 
 by GDur

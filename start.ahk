@@ -14,26 +14,50 @@ by GDur
 
 */
 SetTitleMatchMode, 2
-SetKeyDelay, -1, 0
+SetKeyDelay, -1, 1
+
 
 windowTitle := "cmd.fm client ahk_class AppjsWindow"
 
+
 IfWinNotExist, %windowTitle%
+{
     Run, client/app.exe
+}
+
+; select the iframe - makes it possible tos end the commands
+WinWait, %windowTitle%, , 10
+if ErrorLevel
+{
+    return
+}
+else {
+	ControlClick, X100 Y101, %windowTitle%
+}
 
 
+; a list of the genres
 genres := ["Acoustic", "Electronic Pop", "Progressive House", "Electronic", "Classical Guitar"]
 
 sendCommand(command) {
 	global windowTitle
-	ControlSend, WebViewHost1, %command%{Enter}, %windowTitle%
+	ControlSend, WebViewHost1, %command% {Enter}, %windowTitle%
 }
 
 ; predefined settings
-volume := 100
 isPlaying := false
 isMuted := false
 
+isCommentsPreferedOn := false
+volume := 50 ; prefered volume at start
+
+if(isCommentsPreferedOn)
+	sendCommand("comments on")
+else
+	sendCommand("comments off")
+
+sendCommand("volume " volume)
+	
 AppsKey & F4::
 	if(isPlaying)
 		sendCommand("pause")
