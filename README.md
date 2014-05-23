@@ -10,7 +10,7 @@ unofficial cmd.fm standalone version with support for global hotkeys (standalone
 1. run the start.ahk file
 
 ## What it does
-- all commands will not activate the client window (NO focus steal)
+- commands will not activate the client window (means no focus steal)
 
 - start.ahk
 	- runs client - in case it's not running
