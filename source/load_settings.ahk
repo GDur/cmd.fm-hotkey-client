@@ -6,4 +6,5 @@ genres := [ "Progressive House", "Piano", "R&B", "Punk", "Chiptunes"]
 isPlaying := false
 isMuted := false
 isCommentsPreferedOn := false
-volume := 50 
+volume := 50
+volumeJump := 5

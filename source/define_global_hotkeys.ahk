@@ -41,14 +41,14 @@ AppsKey & Numpad0::
 return
 
 AppsKey & Up::
-	volume += 10
+	volume += volumeJump
 	if(volume > 100)
 		volume = 100
 	sendCommand("volume " volume)
 return
 
 AppsKey & Down::
-	volume -= 10
+	volume -= volumeJump
 	if(volume < 0)
 		volume = 0
 	sendCommand("volume " volume)
