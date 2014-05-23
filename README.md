@@ -11,19 +11,19 @@ It supports global hotkeys.
 1. run the start.ahk file
 
 ## What it does
-- provides cmd.fm as a program
-- will remember settings
+- provides cmd.fm as a standalone version
 - provides command shortcuts via Hotkeys
+- will remember settings
 
 | Hotkey        | Action          
 | ------------- |:-------------:
-[AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Up | volume up
-[AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Down | volume down
-[AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Right | next song
-[AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Left | previous song
+[AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Up      | volume up
+[AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Down    | volume down
+[AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Right   | next song
+[AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Left    | previous song
 [AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Numpad0 | mute/unmute
 [AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Numpad1 | play Progressive House
-[AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + F4 | pause/unpause
+[AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + F4      | pause/unpause
 
 ### Technologies
 - app.js     - standalone client using 
