@@ -14,6 +14,8 @@ It supports global hotkeys.
 - provides cmd.fm as a standalone version
 - provides command shortcuts via Hotkeys
 - will remember settings
+- if you want to change the hotkeys you can do so:
+  - navigate to source/define_globla_hotkeys.ahk (open with texteditor), change the hotkeys, and restart the start.ahk-file
 
 | Hotkey        | Action          
 | ------------- |:-------------:
@@ -22,8 +24,12 @@ It supports global hotkeys.
 [AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Right   | next song
 [AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Left    | previous song
 [AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Numpad0 | mute/unmute
+[AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Enter   | pause/unpause
 [AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Numpad1 | play Progressive House
-[AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + F4      | pause/unpause
+[AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Numpad2 | play Piano
+[AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Numpad3 | play R&B
+[AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Numpad4 | play Punk
+[AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Numpad5 | play Chiptunes
 
 ### Technologies
 - app.js     - standalone client using 
