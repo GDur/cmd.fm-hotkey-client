@@ -7,7 +7,7 @@ It supports global hotkeys.
 
 ## How to install it
 1. install [Autohotkey](http://www.autohotkey.com/)
-1. download the project [here](https://github.com/GDur/cmd.fm-hotkey-client/archive/master.zip) and unzip OR git clone
+1. download this project [here](https://github.com/GDur/cmd.fm-hotkey-client/archive/master.zip) and unzip OR git clone
 1. run the cmdfm player.ahk file
 
 ## What it does
