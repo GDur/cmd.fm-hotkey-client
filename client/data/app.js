@@ -61,7 +61,7 @@ var trayMenu = app.createMenu([{
 
 var statusIcon = app.createStatusIcon({
     icon: './data/content/icons/32.png',
-    tooltip: 'AppJS Hello World',
+    tooltip: 'cmd.fm player',
     menu: trayMenu
 });
 

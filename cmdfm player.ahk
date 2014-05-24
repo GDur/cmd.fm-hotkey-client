@@ -4,7 +4,7 @@
 
 	by GDur
 */
-
+Menu, Tray, Icon, favicon.ico
 ; these are options important for AHK
 #include source\options.ahk
 

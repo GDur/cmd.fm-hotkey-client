@@ -2,20 +2,20 @@ cmd.fm-hotkey-client
 ====================
 
 ## What it is
-This Project is an unofficial cmd.fm standalone version.
+This Project is an unofficial [cmd.fm](https://cmd.fm/) standalone version.
 It supports global hotkeys.
 
-## How to use it
-1. install Autohotkey
+## How to install it
+1. install [Autohotkey](http://www.autohotkey.com/)
 1. download the project [here](https://github.com/GDur/cmd.fm-hotkey-client/archive/master.zip) and unzip OR git clone
-1. run the start.ahk file
+1. run the cmdfm player.ahk file
 
 ## What it does
 - provides cmd.fm as a standalone version
 - provides command shortcuts via Hotkeys
 - will remember settings
 - if you want to change the hotkeys you can do so:
-  - navigate to source/define_globla_hotkeys.ahk (open with texteditor), change the hotkeys, and restart the start.ahk-file
+  - navigate to source/define_globla_hotkeys.ahk (open with texteditor), change the hotkeys, and restart the cmdfm player.ahk-file
 
 | Hotkey        | Action          
 | ------------- |:-------------:
