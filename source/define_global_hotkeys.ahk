@@ -70,5 +70,5 @@ AppsKey & Right::
 return
 
 AppsKey & Left::
-	sendCommand("next")
+	sendCommand("back")
 return
