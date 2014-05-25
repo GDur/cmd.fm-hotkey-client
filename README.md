@@ -13,7 +13,6 @@ It supports global hotkeys.
 ## What it does
 - provides cmd.fm as a standalone version
 - provides command shortcuts via Hotkeys
-- will remember settings
 - if you want to change the genres you can do so:
   - navigate to source/load_settings.ahk (open with texteditor), change the genres in the list, and restart the cmdfm player.ahk-file
 - if you want to change the hotkeys you can do so:
@@ -41,7 +40,7 @@ It supports global hotkeys.
 
 
 ### Technologies
-- app.js     - standalone client using 
-- Autohotkey - global hotkeys (windows only)
+- app.js     - used to create the standalone cmd.fm client 
+- Autohotkey - used to realise the global hotkeys (windows only)
 
 by GDur
