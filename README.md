@@ -14,10 +14,13 @@ It supports global hotkeys.
 - provides cmd.fm as a standalone version
 - provides command shortcuts via Hotkeys
 - will remember settings
+- if you want to change the genres you can do so:
+  - navigate to source/load_settings.ahk (open with texteditor), change the genres in the list, and restart the cmdfm player.ahk-file
 - if you want to change the hotkeys you can do so:
   - navigate to source/define_globla_hotkeys.ahk (open with texteditor), change the hotkeys, and restart the cmdfm player.ahk-file
 
-| Hotkey        | Action          
+## Hotkeys
+| Hotkey        | Action (commands)
 | ------------- |:-------------:
 [AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Up      | volume up
 [AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Down    | volume down
