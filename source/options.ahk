@@ -11,7 +11,6 @@ menu, tray, add, About cmd.fm Player, about
 
 goto, program
 
-ToolTip, fdg
 hotkeylist:
 	Run, https://github.com/GDur/cmd.fm-hotkey-client#hotkeys
 return
