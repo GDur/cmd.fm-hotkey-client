@@ -21,7 +21,7 @@ It supports global hotkeys.
 
 ## Hotkeys
 | Hotkey        | Action (commands)
-| ------------- |:-------------:
+| ------------- |-------------
 [AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Up      | volume up
 [AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Down    | volume down
 [AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Right   | next song
