@@ -1,23 +1,38 @@
 ; define shortcuts/hotkeys for your most loved genres
 AppsKey & Numpad1::
 	sendCommand("play " genres[1])
-	isPlaying := true
 return
+
 AppsKey & Numpad2::
 	sendCommand("play " genres[2])
-	isPlaying := true
 return
+
 AppsKey & Numpad3::
 	sendCommand("play " genres[3])
-	isPlaying := true
 return
+
 AppsKey & Numpad4::
 	sendCommand("play " genres[4])
-	isPlaying := true
 return
+
 AppsKey & Numpad5::
 	sendCommand("play " genres[5])
-	isPlaying := true
+return
+
+AppsKey & Numpad6::
+	sendCommand("play " genres[6])
+return
+
+AppsKey & Numpad7::
+	sendCommand("play " genres[7])
+return
+
+AppsKey & Numpad8::
+	sendCommand("play " genres[8])
+return
+
+AppsKey & Numpad9::
+	sendCommand("play " genres[9])
 return
 
 
@@ -27,8 +42,6 @@ AppsKey & Enter::
 		sendCommand("pause")
 	else
 		sendCommand("resume")
-		
-	isPlaying := !isPlaying
 return
 
 AppsKey & Numpad0::
@@ -36,8 +49,6 @@ AppsKey & Numpad0::
 		sendCommand("unmute")
 	else
 		sendCommand("mute")
-		
-	isMuted := !isMuted
 return
 
 AppsKey & Up::
@@ -55,9 +66,9 @@ AppsKey & Down::
 return
 
 AppsKey & Right::
-	sendCommand("next ")
+	sendCommand("next")
 return
 
 AppsKey & Left::
-	sendCommand("next ")
+	sendCommand("next")
 return
