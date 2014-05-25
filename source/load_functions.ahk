@@ -7,7 +7,6 @@ sendCommand(command_and_options) {
 	if(command = "play") {
 		isPlaying := true
 	}
-
 	
 	if(command = "pause" or command = "resume") {
 		MsgBox blbla

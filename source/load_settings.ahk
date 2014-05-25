@@ -1,5 +1,5 @@
 ; a list of the genres
-genres := [ "Progressive House", "Piano", "R&B", "Punk", "Chiptunes", "Drum & Bass", "Folk", "House", "Singer / Songwriter" , "Pop"]
+genres := [ "Progressive House", "Piano", "R&B", "Punk", "Chiptunes", "Drum & Bass", "Folk", "House", "Singer / Songwriter"]
 
 
 ; predefined settings

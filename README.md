@@ -28,11 +28,17 @@ It supports global hotkeys.
 [AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Left    | previous song
 [AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Numpad0 | mute/unmute
 [AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Enter   | pause/unpause
+ ------------- |:-------------:
 [AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Numpad1 | play Progressive House
 [AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Numpad2 | play Piano
 [AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Numpad3 | play R&B
 [AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Numpad4 | play Punk
 [AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Numpad5 | play Chiptunes
+[AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Numpad6 | play Drum & Bass
+[AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Numpad7 | play Folk
+[AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Numpad8 | play House
+[AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Numpad9 | play Singer / Songwriter
+
 
 ### Technologies
 - app.js     - standalone client using 
