@@ -36,6 +36,24 @@ var menubar = app.createMenu([{
             window.frame.restore();
         }
     }]
+}, {
+    label: '&Help',
+    submenu: [{
+        label: 'Hotkeys (List)',
+        action: function() {
+            window.open("https://github.com/GDur/cmd.fm-hotkey-client#hotkeys");
+        }
+    }, {
+        label: 'How to change Hotkeys/Genres',
+        action: function() {
+            window.open("https://github.com/GDur/cmd.fm-hotkey-client#what-it-does");
+        }
+    }, {
+        label: 'About cmd.fm Player',
+        action: function() {
+            window.open("https://github.com/GDur/cmd.fm-hotkey-client#what-it-is");
+        }
+    }]
 }]);
 
 menubar.on('select', function(item) {
