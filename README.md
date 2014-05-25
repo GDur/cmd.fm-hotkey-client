@@ -28,7 +28,7 @@ It supports global hotkeys.
 [AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Left    | previous song
 [AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Numpad0 | mute/unmute
 [AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Enter   | pause/unpause
- ------------- |:-------------:
+|
 [AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Numpad1 | play Progressive House
 [AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Numpad2 | play Piano
 [AppKey](http://upload.wikimedia.org/wikipedia/commons/3/3a/Qwerty.svg) + Numpad3 | play R&B
