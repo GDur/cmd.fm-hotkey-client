@@ -41,6 +41,6 @@ It supports global hotkeys.
 
 ### Technologies
 - app.js     - used to create the standalone cmd.fm client 
-- Autohotkey - used to realise the global hotkeys (windows only)
+- Autohotkey - used to realize the global hotkeys (windows only)
 
 by GDur
